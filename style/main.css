@@ -2,12 +2,26 @@
     margin: 0;
     padding: 0;
 }
+h1,button{
+    color: hsl(0, 0%, 95%);
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
 section{
     background: #F2F2F2;
 }
 
 .main-container{
-    width: 100%;
+    width: 1440px;
     height: auto;
 }
 
@@ -17,14 +31,13 @@ section{
     justify-content: center;
     padding-bottom: 100px;
     padding-top: 100px;
-    padding-left: 20px;
+    padding-left: 100px;
     padding-right: 50px;
     border-radius: 50px;
 
 }
 .card-content{
     margin: 50px;
-    padding: ;
 }
 .card{
     width: 100%;
@@ -35,7 +48,9 @@ section{
     background: #E28525;
     border-radius: 10px 0 0 10px;
 }
-
+#card-1 p{
+    color: lightyellow;
+}
 #card-2{
     background: #016972;
 }
@@ -58,7 +73,7 @@ p{
     color: #A2E5EE;
 }
 .btn{
-    padding-top: 100px;
+    padding-top: 75px;
 
 }
 
@@ -88,7 +103,8 @@ button:hover{
     }
     
     .main-container{
-
+        width: 375px;
+        padding-left: 18%;
     }
     
     .card-wrapper{
@@ -110,5 +126,9 @@ button:hover{
     
     #card-3{
         border-radius: 0 0 10px 10px;
+    }
+    .btn{
+        padding-top: 50px;
+    
     }
 }
