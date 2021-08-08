@@ -101,6 +101,43 @@ button:hover{
 
 #btn-3{
     padding-top: 75px;
+
+}
+/* responsive side */
+@media screen and (max-width: 1200px) {
+    section{
+        
+    }
+    
+    .main-container{
+        width: 675px;
+        padding-left: 15%;
+    }
+    
+    .card-wrapper{
+        grid-template-columns: 1fr;
+    
+    }
+    
+    .card{
+        
+    }
+    
+    #card-1{
+        border-radius: 10px 10px 0 0;
+    }
+    
+    #card-2{
+
+    }
+    
+    #card-3{
+        border-radius: 0 0 10px 10px;
+    }
+    .btn{
+        padding-top: 30px;
+    
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -110,7 +147,7 @@ button:hover{
     
     .main-container{
         width: 375px;
-        padding-left: 18%;
+        padding-left: 15%;
     }
     
     .card-wrapper{
